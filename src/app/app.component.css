@@ -1,3 +1,33 @@
-p {
-  font-family: Lato;
+* {
+  font-family: serif;
+}
+/* LOGO */
+.logo {
+  margin-top: 60PX;
+  margin-left: 45PX;
+  max-width: 80px; 
+  display: flex;
+}
+.logo p{
+  padding-left: 15px;
+}
+ /* Formulario */ 
+
+.forms{
+  margin-left: 46px;
+}
+.login {
+  padding-top: 20px;
+}
+.login a{
+  padding-left: 110px;
+}
+.login input{
+  border-radius: 5px;
+  padding-right: 40px;
+}
+/* Button */
+.button {
+
+  text-align: center;
 }
