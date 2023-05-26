@@ -1,8 +1,29 @@
 <ion-app>
-  <ion-content>
-    <hello name="{{ name }}"></hello>
-    <p>Start editing to see some magic happen :)</p>
-
-    <ion-button>GREAT IONIC BUTTON</ion-button>
+  <ion-content><div class="logo">
+    <ion-img src="https://logodownload.org/wp-content/uploads/2013/12/sbt-logo-1.png"></ion-img>
+    <span>Conta SBT</span>
+  </div>
+  <div class="forms">
+    <h1>fazer login</h1>
+    <span>ainda não tém conta?
+      <a href="">clique aqui!</a> <br>
+    </span>
+    <div class="login">
+      <label for="login">login:</label>
+      <br>
+      <input type="text" id="login" placeholder="digite seu login">
+      <br>
+      <a href="">esqueceu seu login?</a>
+      <br>
+      <label for="senha">Senha:</label>
+      <br>
+      <input type="password" id="senha" placeholder="digite sua senha">
+      <br>
+      <a href="">esqueceu sua senha?</a>
+    </div>
+  </div>
+  <div class="button">
+    <ion-button shape="round">Round</ion-button>
+  </div>
   </ion-content>
 </ion-app>
